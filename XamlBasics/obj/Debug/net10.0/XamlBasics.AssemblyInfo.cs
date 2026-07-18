@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XamlBasics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9afc12c79dc2a88917ae7bfa580e4d86834633b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("XamlBasics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XamlBasics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

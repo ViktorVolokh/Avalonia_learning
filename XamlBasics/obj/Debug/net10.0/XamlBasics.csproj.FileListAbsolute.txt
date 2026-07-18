@@ -89,3 +89,4 @@
 /home/volokhviktor/RiderProjects/Avalonia_learning/XamlBasics/obj/Debug/net10.0/XamlBasics.pdb
 /home/volokhviktor/RiderProjects/Avalonia_learning/XamlBasics/obj/Debug/net10.0/XamlBasics.genruntimeconfig.cache
 /home/volokhviktor/RiderProjects/Avalonia_learning/XamlBasics/obj/Debug/net10.0/ref/XamlBasics.dll
+/home/volokhviktor/RiderProjects/Avalonia_learning/XamlBasics/obj/Debug/net10.0/XamlBasics.sourcelink.json

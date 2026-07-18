@@ -5,5 +5,27 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="XamlBasics.MainWindow"
         Title="XamlBasics">
-    Welcome to Avalonia!
+        <StackPanel Orientation="Vertical" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" 
+                     
+                    Spacing="20">
+                <Button Content="left side" Width="200" Height="60" 
+                        HorizontalContentAlignment="Center" 
+                        VerticalContentAlignment="Center"/>
+                
+                <Button Content="Center" Width="200" Height="60"
+                        HorizontalContentAlignment="Center" 
+                        VerticalContentAlignment="Center"/> 
+                
+                
+                <Button Content="right side" Width="200" Height="60"
+                        HorizontalContentAlignment="Center" 
+                        VerticalContentAlignment="Center"/>  
+                </StackPanel>
+                <TextBlock Text="click on center to begin!" Margin="238,5,0,0"/>
+        </StackPanel>
+        
+        
 </Window>
