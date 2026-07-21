@@ -1,0 +1,19 @@
+<Window x:Class="App2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:App2"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Foreground="{DynamicResource Theme_TextBrush}">
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <Button Name = "LeftButton" Height="50" Width = " 250" Click="Button_Click"
+          Content="don't click to me"/>
+          <Button Name = "CentralButton" Height="50" Width = "250" Click="Button_Click"
+          Content="Click to the right button"/>
+          <Button Name = "RightButton" Height="50" Width = " 250" Click="Button_Click"
+          Content="don't listen to the central button"/>
+          <TextBox Name ="ButtonText" Visibility="Hidden" Text=""/>
+      </StackPanel>
+ </Window>
