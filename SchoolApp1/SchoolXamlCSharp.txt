@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
+
+namespace App2;
+
+public partial class MainWindow : Window
+{
+    private int _clickCount;
+
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
+
+    private void OnButtonClick(object sender, RoutedEventArgs e)
+    {
+        if (sender is Button button)
+        {
+            button.Content = $"Clicked count: {++_clickCount}";
+        }
+    }
+
+    public void Button_Click(object sender, RoutedEventArgs e)
+    {
+        Button ClickedButton = (Button)sender;
+
+        switch (ClickedButton.Name)
+        {
+            case "LeftButton":
+                 MessageBox.Show("False button");
+                break;
+            case "CentralButton":
+                MessageBox.Show("You`re won");
+                break;  
+            case "RightButton":
+                MessageBox.Show("False button");
+                break;
+            default:
+                MessageBox.Show("Unknown button is clicked");
+                break;
+        }
+    }
+}
